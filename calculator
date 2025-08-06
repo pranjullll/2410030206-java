@@ -1,0 +1,45 @@
+import java.util.*;
+
+class Main {
+    public static void main(String[] args) {
+      Scanner sc=new Scanner(System.in);
+      System.out.println("enter the two numbers");
+       int a=sc.nextInt();
+        int b=sc.nextInt();
+        System.out.println(" enter 1 for addition \n enter 2 for subtraction \n enter 3 for multilpication \n enter 4 for division");
+        int x;
+        int c=sc.nextInt();
+        switch(c)
+        {
+            case 1:
+                {
+                x=a+b;
+                System.out.println(x);
+                break;
+                
+        }
+        case 2:
+                {
+                x=a-b;
+                System.out.println(x);
+                break;
+                
+        }
+        case 3:
+                {
+                x=a*b;
+                System.out.println(x);
+                break;
+                
+        }
+        case 4:
+                {
+                x=a/b;
+                System.out.println(x);
+                break;
+                
+        }
+       
+    }
+}
+}
