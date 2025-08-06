@@ -1,0 +1,11 @@
+class Main {
+    public static void main(String[] args) {
+        System.out.print("flat no-1409,omicron -3 migsun vilasa   greater noida \n");
+        System.out.println("flat no-1409");
+        System.out.println("omicron 3");
+        
+        System.out.println("Migsun vilasa");
+         System.out.println("Greater noida");
+        
+    }
+}
