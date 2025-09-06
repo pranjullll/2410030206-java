@@ -1,0 +1,37 @@
+import java.util.*;
+class Main {
+    public static void main(String[] args) {
+      Scanner sc=new Scanner(System.in);
+      System.out.println("enter the number");
+      int n=sc.nextInt();
+      int num =n;
+      int n2=n;
+      int c=0;
+      int s=0;
+      while(n!=0)
+      {
+      
+          n=n/10;
+          c++;
+      }
+      while(num!=0)
+      {int d=num%10;
+      s=s+(int)Math.pow(d,c);
+      num=num/10;
+      }
+      if(n2==s)
+      {
+          System.out.println("armstrong number");
+          
+      }
+      else
+      {
+          System.out.println("not an armstrong number");
+      }
+      
+      
+          
+      
+      System.out.println("length of given number = "+c );
+    }
+}
