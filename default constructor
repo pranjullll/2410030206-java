@@ -1,0 +1,11 @@
+class Geeks{
+
+Geeks()
+{
+System.out.println("welcome to Geek for Geeks");
+}
+public static void main(String args[])
+{
+Geeks geek=new Geeks();
+}
+}
